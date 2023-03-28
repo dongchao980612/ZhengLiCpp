@@ -1,30 +1,41 @@
 #include<iostream>
 
 using namespace std;
+
+// #define DEBUG_ON
+#ifdef DEBUG_ON
+#define PRINT_DEBUG cout<<"LINE:"<<__LINE__<<"\tFUNCTION:"<<__FUNCTION__<<endl;
+#else
+#define PRINT_DEBUG
+#endif // DEBUG_ON
+
+
 class Point
 {
 public:
 	Point(int xx = 0, int yy = 0) {
+		PRINT_DEBUG;
 		x = xx;
 		y = yy;
 	}
-	Point(Point &p);
+	Point(Point &p)
+	{
+		PRINT_DEBUG;
+		x = p.x;
+		y = p.y;
+	}
 	int getX() {
+		PRINT_DEBUG;
 		return x;
 	}
 	int getY() {
+		PRINT_DEBUG;
 		return y;
 	}
 private:
 	int x, y;
 };
 
-Point::Point(Point &p)
-{
-	x = p.x;
-	y = p.y;
-	cout << "调用默认构造函数" << endl;
-}
 //函数形参是类的对象
 void fun1(Point p)
 {

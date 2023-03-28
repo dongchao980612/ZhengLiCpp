@@ -1,0 +1,39 @@
+#include<iostream>
+
+using namespace std;
+
+class Point
+{
+public:
+	Point() :x(0), y(0) {
+		cout << "Default construct called" << endl;
+	};
+	Point(int x, int t) :x(x), y(x) {
+		cout << "construct called" << endl;
+	};
+	~Point() {
+		cout << "Deconstruct called" << endl;
+	}
+	int getX()const {
+		return x;
+	}
+	int getY()const {
+		return y;
+	}
+	void move(int newX, int newY) {
+		x = newX;
+		y = newY;
+	}
+private:
+	int x, y;
+};
+
+int main()
+{
+	Point* ptr = new Point[2];
+	ptr[0].move(5, 10);
+	ptr[1].move(15, 20);
+	cout << "delete ..." << endl;
+	delete[] ptr;
+	return 0;
+}
