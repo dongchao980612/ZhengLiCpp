@@ -1,7 +1,0 @@
-﻿  main.cpp
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-4\main.cpp(31): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-4\main.cpp(32): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-4\main.cpp(36): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-4\main.cpp(37): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-4\main.cpp(38): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-  6-4.vcxproj -> C:\Users\32243\Desktop\CppTutorial\ch06 数组、指针与字符串\Debug\6-4.exe

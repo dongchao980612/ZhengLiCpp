@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cmath>
+
 using namespace std;
 
 class Point {
@@ -25,6 +26,8 @@ Point::Point(Point &p) {
 	cout << "调用Point的复制构造函数" << endl;
 }
 
+
+//  类的组合
 class Line {
 public:
 	Line(Point xp1, Point xp2);
@@ -33,7 +36,7 @@ public:
 		return len;
 	}
 private:
-	Point p1, p2;
+	Point p1,p2;
 	double len;
 };
 // 类名::类名(形参表) :内嵌对象1(形参表), 内嵌对象2(形参表)

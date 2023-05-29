@@ -2,34 +2,23 @@
 
 using namespace std;
 
-// #define DEBUG_ON
-#ifdef DEBUG_ON
-#define PRINT_DEBUG cout<<"LINE:"<<__LINE__<<"\tFUNCTION:"<<__FUNCTION__<<endl;
-#else
-#define PRINT_DEBUG
-#endif // DEBUG_ON
-
 
 class Point
 {
 public:
 	Point(int xx = 0, int yy = 0) {
-		PRINT_DEBUG;
 		x = xx;
 		y = yy;
 	}
 	Point(Point &p)
 	{
-		PRINT_DEBUG;
 		x = p.x;
 		y = p.y;
 	}
 	int getX() {
-		PRINT_DEBUG;
 		return x;
 	}
 	int getY() {
-		PRINT_DEBUG;
 		return y;
 	}
 private:

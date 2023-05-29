@@ -1,4 +1,0 @@
-﻿  maincpp.cpp
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-11\maincpp.cpp(7): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\32243\desktop\cpptutorial\ch06 数组、指针与字符串\6-11\maincpp.cpp(7): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
-  6-11.vcxproj -> C:\Users\32243\Desktop\CppTutorial\ch06 数组、指针与字符串\Debug\6-11.exe
