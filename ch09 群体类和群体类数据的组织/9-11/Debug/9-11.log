@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\32243\desktop\cpptutorial\ch09 群体类和群体类数据的组织\9-11\main.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\32243\desktop\cpptutorial\ch09 群体类和群体类数据的组织\9-11\main.cpp(76): note: 参见对正在编译的函数 模板 实例化“void print<int>(T [],int)”的引用
+          with
+          [
+              T=int
+          ]
+  9-11.vcxproj -> C:\Users\32243\Desktop\CppTutorial\ch09 群体类和群体类数据的组织\Debug\9-11.exe
